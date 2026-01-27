@@ -1,5 +1,7 @@
 # DigiFi Education - E-commerce Project
 
+Node.js version at least 22
+
 This is an educational repository containing a mock API and TanStack Start frontend. Your task is to rebuild the project to match the category and product page design from [GörDetMedRW](https://gordetmedrw.se/) as closely as possible.
 
 ## 🎯 Project Goal
@@ -58,7 +60,7 @@ digifi-education/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v18 or higher)
+- Node.js (v22 or higher)
 - npm or yarn
 
 ### Setup
