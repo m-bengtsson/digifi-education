@@ -1,0 +1,12 @@
+{
+    "name": "ecommerce-mock-api",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "node server.js",
+      "start:watch": "nodemon server.js",
+      "start:delay": "json-server --watch db.json --port 3050 --delay 1000"
+    },
+    "devDependencies": {
+      "json-server": "^0.17.4"
+    }
+  }

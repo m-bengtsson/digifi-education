@@ -1,0 +1,93 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "sku": "FLY-001",
+        "name": "Flygrostborttagare 500ML",
+        "description": "<h2>Flygrostborttagare - vår storsäljare!</h2><p>Denna högkvalitativa produkt är i grunden en effektiv fälgrengöring som enkelt löser bromsdamm och annan svår smuts. Flygrostborttagaren kan användas på flera olika ytor som t.ex. lack, metall, plast och glas. Den är även idealisk för rengöring av entreprenadmaskiner som lastbilar, grävmaskiner & hjullastare. Produkten kan användas outspädd för tuffare smuts, eller spädas 50/50 med vatten vid lättare nedsmutsning. Appliceras på både torra och våta ytor - mindre medel går åt på våta ytor.</p><h3>Exempel på rengöring:</h3><ul><li>Flygrost</li><li>Bromsdamm</li><li>Bruna fälgar</li><li>Maskinfett</li><li>Inbränd smuts</li><li>Brutalt effektiv på maskiner & lastbilar</li></ul><h3>Så här använder du produkten:</h3><ol><li>Applicera flygrostborttagaren jämnt över ytan som ska rengöras.</li><li>När medlet reagerar med smutsen skiftar färgen till lila.</li><li>Bearbeta vid behov:<ul><li>Lack: Använd en mjuk rekondpensel för att lösa upp smutsen.</li><li>Fälgar: Använd en fälgborste eller rekondpensel för bästa resultat.</li></ul></li><li>Låt medlet verka i 5-10 minuter beroende på smutsen.</li><li>Använd en högtryckstvätt för att kunna spola av smuts och medel ordentligt.</li></ol><p><strong>FARA:</strong> Skadligt vid förtäring. Kan orsaka allergisk hudreaktion. Orsakar allvarlig ögonirritation. Ha förpackningen eller etiketten till hands om du måste söka läkarvård. Förvaras oåtkomligt för barn. Undvik att inandas dimma/ångor. Tvätta händerna grundligt efter användning. Använd ögonskydd/skyddshandskar. VID HUDKONTAKT: Tvätta med mycket vatten/vatten och tvål. Vid hudirritation eller utslag: Sök läkarhjälp. Innehållet/behållaren lämnas i enlighet med lokala bestämmelser</p><p><strong>Innehåller:</strong> Sodium mercaptoacetate, lsotridecanol, ethoxylated, &lt;5% Anjoniska tensider, &lt;5% Nonjoniska tensider.</p><p><strong>UFI:</strong> P672-9W1T-C71F-P3Y3</p>",
+        "price": 189,
+        "stock": 100,
+        "categoryId": 1,
+        "images": [
+          "https://nycdn.nyehandel.se/store_91f5fbde-a76f-4822-9565-1c254755b651/images/gzdrIY5NrduMAfVUodRGRvNGMIUOGvDulTsa6xus.png",
+          "https://nycdn.nyehandel.se/store_91f5fbde-a76f-4822-9565-1c254755b651/images/TMKMVpqGVwp4dEk1662729664.jpeg"
+        ],
+        "reviewCount": 724,
+        "reviewAverageRating": 4.5,
+        "securityDataSheet": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a88104c8-50cf-4ff7-bd05-3fde7a3f7c51/Flyg-svenska.pdf",
+        "instructionVideo": "https://youtu.be/k3yoQbErfbQ",
+        "recommendedAccessories": [2, 3, 4]
+      },
+      {
+        "id": 2,
+        "sku": "TYK-002",
+        "name": "Tryckspruta Kall, Flyg & Syra 1.5L",
+        "description": "<h2>Tryckspruta – För enkel och effektiv applicering</h2><p>Denna tryckspruta är ett utmärkt verktyg för en jämn och effektiv av kem.</p><h3>Kompatibel med:</h3><ul><li>Kallavfettning</li><li>Flygrostborttagare</li><li>Syratvätt</li></ul><p><strong>Ej kompatibel med produkter med högt pH-värde såsom:</strong></p><ul><li>Alkalisk avfettning</li></ul><h3>Fördelar:</h3><ul><li>Gör appliceringen av avfettningsmedel snabbare och mer effektiv.</li><li>Hjälper till att fördela medlet jämnt på ytorna.</li><li>Spara tid och pengar genom att optimera användningen av avfettning.</li></ul><h3>Skötselråd:</h3><p>För att förlänga livslängden på din tryckspruta rekommenderar vi följande:</p><ul><li>Släpp alltid på trycket efter användning.</li><li>Förvara inte trycksprutan med medel i den.</li><li>Töm ut avfettningen eller använd upp den.</li><li>Fyll trycksprutan med lite vatten, skruva åt locket och pumpa upp trycket.</li><li>Spruta ut vattnet för att spola igenom sprutan och dess delar med fräscht kranvatten.</li></ul><p>Om du följer dessa enkla råd kommer din tryckspruta att hålla länge och ge dig pålitliga resultat varje gång.</p>",
+        "price": 299,
+        "stock": 14,
+        "categoryId": 2,
+        "images": [
+          "https://nycdn.nyehandel.se/store_91f5fbde-a76f-4822-9565-1c254755b651/images/Rb4XIiJSbEbFd2BadLfFWjT8LXfAqprjfGGSMGYf.jpg",
+          "https://nycdn.nyehandel.se/store_91f5fbde-a76f-4822-9565-1c254755b651/images/eYi2Gv5hpCde7K6PNfWjnvTNkbhUjfFrkmbaWvFC.jpg",
+          "https://nycdn.nyehandel.se/store_91f5fbde-a76f-4822-9565-1c254755b651/images/ej0J7qXYVGJ3PMc1679056926.jpeg"
+        ],
+        "reviewCount": 110,
+        "reviewAverageRating": 3.5,
+        "securityDataSheet": null,
+        "instructionVideo": "https://youtu.be/watr7emvfAM",
+        "recommendedAccessories": []
+      },
+      {
+        "id": 3,
+        "sku": "BOR-003",
+        "name": "Fälgborste pro",
+        "description": "<h2>Fälgborste för effektiv borttagning av bromsdamm</h2><p>Denna hårda kvalitetsborste är perfekt för rengöring av smutsiga fälgar och motorutrymmen. Med sin robusta kvalité och borst klarar den av att ta bort svår fastsittande smuts och bromsdamm utan att skada ytan. Borsten behåller sin form och stabilitet och börjar inte spreta och bli trasig efter någon gångs användning som en vanlig pensel.</p><h3>Fördelar:</h3><ul><li>Hård konstruktion för att effektivt slå loss smuts, utan att repa fälgen.</li><li>Kulformad spets som gör det lätt att komma åt på svåråtkomliga ställen.</li><li>Håller länge om den sköljs ren med vatten efter användning.</li><li>Tål alla typer av avfettningar och löses inte upp.</li><li>Slitstark och används av professionella rekondföretag.</li></ul><h3>Rekommenderas:</h3><p>Använd gärna tillsammans med flygrostborttagare för bästa resultat.</p>",
+        "price": 199,
+        "stock": 50,
+        "categoryId": 2,
+        "images": [
+          "https://nycdn.nyehandel.se/store_91f5fbde-a76f-4822-9565-1c254755b651/images/Ip7DNG4Utkwi3ji2Cl6NxvwDUCUFdwWa2HxHlt0V.jpg"
+        ],
+        "reviewCount": 153,
+        "reviewAverageRating": 4.7,
+        "securityDataSheet": null,
+        "instructionVideo": null,
+        "recommendedAccessories": []
+      },
+      {
+        "id": 4,
+        "sku": "PEN-004",
+        "name": "Rekondpensel",
+        "description": "<h2>Mjuk och tät pensel för skonsam rengöring</h2><p>Denna pensel är designad för att vara skonsam mot känsliga ytor och förhindrar repor, vilket gör den perfekt för både invändig och utvändig rengöring av bilen. Använd den för att rengöra instrumentpanelen, fläktgaller, runt emblem, på känsliga fälgar och i motorutrymmet.</p><h3>Fördelar:</h3><ul><li>Mjuk och tät borstning som skyddar ytorna.</li><li>Idealisk för både bilens interiör och exteriör.</li><li>Perfekt för detaljerad rengöring av svåråtkomliga områden.</li></ul><h3>Specifikationer:</h3><ul><li>Bredd borsthuvud: 6cm</li></ul>",
+        "price": 75,
+        "stock": 20,
+        "categoryId": 2,
+        "images": [
+          "https://nycdn.nyehandel.se/store_91f5fbde-a76f-4822-9565-1c254755b651/images/I0zBarUIJQnRtaPSK9aMsKRIWR74xQvYEqQ7Q3Dz.jpg"
+        ],
+        "reviewCount": 371,
+        "reviewAverageRating": 4.8,
+        "securityDataSheet": null,
+        "instructionVideo": null,
+        "recommendedAccessories": []
+      }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Exteriör",
+            "slug": "exterior",
+            "parentId": null,
+            "description": "Här hittar du alla bilvårdsprodukter som passar för bilens exteriör. Alla produkter är testade av oss och vi garanterar att blir roligt att tvätta bilen. Inget mer skrubb och gnugg, med våra medel släpper smutsen direkt!",
+            "descriptionBel": "<h2>Bilvårdsprodukter från GörDetMedRW</h2><p>I vårt sortiment av bilvårdsprodukter hittar du allting du behöver för att tvätta och ta hand om din bil. Alla produkter är framtagna av oss och noggrant testade för att vara effektiva och dryga.</p><h3>Varför använda sig av bilvårdsprodukter?</h3><p>Genom att använda bilvårdsprodukter för att tvätta och hålla din bil ren ger du ditt fordon en längre livstid och ett bättre värde om du ska sälja din bil i framtiden. Låter du din bil vara smutsig kan detta orsaka korrosion och rost.</p><h3>Gör det enkelt - använd våra bilvårdsprodukter!</h3><p>Vi har tagit fram produkter för bilvård som gör det enkelt att tvätta och hålla sin bil ren och fräsch. Du klarar dig väldigt långt med alkalisk avfettning, flygrostborttagare, bilschampo, keramiskt spray-lackskydd och torkdukar.</p><p>För bilens interiör hittar du en av våra storsäljare - Multirengöring. Med hjälp av denna och en mikrofiberduk kan du i princip göra rent och fint inne i hela bilen.</p><p>Vi har även tagit fram många prisvärda bilvårdspaket som du kan välja för att spara pengar.</p><p>Är du osäker på vad du ska välja? Hör av dig till oss så hjälper vi dig! ➡️ <a href=\"/contact\">Kontakta oss</a></p>"
+        },
+        {
+            "id": 2,
+            "name": "Interiör",
+            "slug": "interior",
+            "parentId": null,
+            "description": "Här finns alla produkter som behövs för att göra ren insidan av bilen eller för att använda hemma i huset eller lägenheten. Produkterna funkar för rengöring av: inredning i bilen, säten, golv, mattor e.t.c.  Många av produkterna lämpar sig även riktigt bra för rengöring av kök & badrum.",
+            "descriptionBel": "<h2>Våra produkter för interiör rengöring</h2><p>I vårt breda utbud av rengöringsprodukter för interiört bruk hittar du rengöringsmedel som passar de flesta ytor, glasrengöring, färdiga paket till extra bra priser, borstar, dukar och doftisar.</p><h3>Vår Multirengöring</h3><p>En multirengöring i superkoncentrat som går att spädas ut. Rekommenderad maxutspädning är 10% Multirengöring och 90% vatten.</p><p>Multirengöringen är en så kallad APC (all purpose cleaner) och passar för rengöring av alla ytor. Är skonsam och lämnar inga rester. Finns i 500 ml flaska och 5 liters dunk och i många olika goda dofter.</p><h3>Vår glasrengöring</h3><p>Glasrengöringsmedel med riktigt bra effekt som även går att späda ut med vatten beroende på graden av nedsmutsning. Perfekt till badrumsspegeln eller fönsterputs. Finns i 500ml flaska och 5 liters dunk.</p><h3>Färdiga paket för interiörrengöring</h3><p>Välj något av våra noggrant sammansatta paket för att få ett bättre pris. Välj mellan litet, mellan eller stort interiörpaket och mini eller vanligt glasrengöringspaket.</p><h3>Tillbehör till rengöring interiört</h3><p>Här har vi en rad tillbehör för att angripa olika sorters smuts och material. Du hittar rekondpensel, rengöringssvamp, träborste och tomflaskar för att späda ut rengöringsmedel.</p><h3>Dukar för städ och rengöring</h3><p>När det gäller rengöring inomhus eller interiört i bilen så rekommendar vi vår mikrofiberduk torkduk basic. Dukarna är framtagna för att fånga upp damm och smuts med hjälp av sina många och små speciella fibrer. Funkar bäst tillsammans med Multirengöring med går bra att damma med utan medel. Finns i 5-pack, 10-pack oh 20-pack.</p><h3>Doftisar för hemmet eller bilen</h3><p>Passa på att sprid lite god doft med någon av våra doftisar. Häng i bilen för fräsch doft varje gång eller varför inte sprida lite god doft i tvättstugan?</p>"
+        }
+    ]
+}
