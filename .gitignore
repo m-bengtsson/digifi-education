@@ -1,6 +1,65 @@
-node_modules
-.DS_Store
-dist
-dist-ssr
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
 *.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
 .vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cta.json
+
+# Cache
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# edu-api specific
+edu-api/node_modules/
+edu-api/.env
+edu-api/.env.local
+
+# edu-ecommerce specific
+edu-ecommerce/node_modules/
+edu-ecommerce/dist/
+edu-ecommerce/.vite/
+edu-ecommerce/.env
+edu-ecommerce/.env.local
+edu-ecommerce/.cta.json
+edu-ecommerce/.vscode/
+edu-ecommerce/coverage/
