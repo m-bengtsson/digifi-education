@@ -4,7 +4,7 @@ This is an educational repository containing a mock API and TanStack Start front
 
 ## 🎯 Project Goal
 
-Rebuild an e-commerce application that closely matches the design and functionality of the category page on [gordetmedrw.se](https://gordetmedrw.se/). Images and assets can be taken from the reference site to achieve a similar look and feel.
+Rebuild an e-commerce application that closely matches the design and functionality of the category and product page on [gordetmedrw.se](https://gordetmedrw.se/). Images and assets can be taken from the reference site to achieve a similar look and feel.
 
 ## 📋 What to Build
 
