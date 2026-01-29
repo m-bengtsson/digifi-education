@@ -52,6 +52,46 @@ server.get("/categories/:id", (req, res) => {
 
   res.json(category);
 });
+// Get all products
+server.get("/products", (req, res) => {
+  const db = router.db;
+  const products = db.get("products").value();
+  res.json(products);
+});
+
+//  Get products by categoryId
+server.get("/products/by-category", (req, res) => {
+  const db = router.db;
+  const categoryId = req.query.categoryId;
+
+  if (!categoryId || String(categoryId).trim() === "") {
+    return res
+      .status(400)
+      .json({ error: 'Query parameter "categoryId" is required' });
+  }
+
+  const products = db.get("products").value();
+  const filteredProducts = products.filter(
+    (product) => String(product.categoryId) === String(categoryId),
+  );
+
+  res.json(filteredProducts);
+});
+
+// Get a specific product
+server.get("/products/:id", (req, res) => {
+  const db = router.db;
+  const product = db
+    .get("products")
+    .find({ id: Number(req.params.id) })
+    .value();
+
+  if (!product) {
+    return res.status(404).json({ error: "Product not found" });
+  }
+
+  res.json(product);
+});
 
 // Custom route for product search
 server.get("/products/search", (req, res) => {
