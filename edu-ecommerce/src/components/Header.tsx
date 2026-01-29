@@ -74,7 +74,11 @@ export default function Header({ categories }: HeaderProps) {
         {/* Categories */}
         <nav className="h-8 py-2 hidden lg:flex items-center justify-center font-extrabold text-lg uppercase gap-4">
           {categories.map((category) => (
-            <Link to="/" key={category.id}>
+            <Link
+              to="/products/$categorySlug"
+              params={{ categorySlug: category.slug }}
+              key={category.id}
+            >
               <p>{category.name}</p>
             </Link>
           ))}
