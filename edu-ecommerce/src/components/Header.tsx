@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
-
 import { useState } from "react";
+import imageUrls from "../data/imageUrls";
 import { Menu, X } from "lucide-react";
 
 export default function Header() {
@@ -8,7 +8,9 @@ export default function Header() {
 
   return (
     <>
-      <header className="p-4 flex items-center bg-gray-800 text-white shadow-lg">
+      <header
+        className={`p-4 flex bg-[url(${imageUrls.backroundBlue})] bg-cover bg-center items-center text-white shadow-lg`}
+      >
         <button
           onClick={() => setIsOpen(true)}
           className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
@@ -17,7 +19,9 @@ export default function Header() {
           <Menu size={24} />
         </button>
         <h1 className="ml-4 text-xl font-semibold">
-          <Link to="/">Logga</Link>
+          <Link to="/">
+            <img src={imageUrls.logo} alt="Logo" className="h-10" />
+          </Link>
         </h1>
       </header>
 
