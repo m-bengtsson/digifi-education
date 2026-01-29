@@ -3,13 +3,24 @@ import { useState } from "react";
 import imageUrls from "../data/imageUrls";
 import { Menu, Search, ShoppingCart, StarIcon, User, X } from "lucide-react";
 
-export default function Header() {
+type Category = {
+  id: number;
+  name: string;
+  slug: string;
+};
+
+type HeaderProps = {
+  categories: Category[];
+};
+
+export default function Header({ categories }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false);
+  console.log(imageUrls.backgroundBlue);
 
   return (
     <>
       <header
-        className={`flex flex-col bg-[url(${imageUrls.backroundBlue})] bg-cover bg-center  lg:justify-between  items-center text-white shadow-lg *:w-full`}
+        className={`flex flex-col bg-[url(${imageUrls.backgroundBlue})] bg-cover bg-center  lg:justify-between  items-center text-white shadow-lg *:w-full`}
       >
         {/* Black bar */}
         <div className="bg-neutral-800 h-7.5 w-full flex gap-6 uppercase items-center justify-center font-extrabold">
@@ -62,13 +73,16 @@ export default function Header() {
         </div>
         {/* Categories */}
         <nav className="h-8 py-2 hidden lg:flex items-center justify-center font-extrabold text-lg uppercase gap-4">
-          <p>Exteriör</p>
-          <p>Interiör</p>
+          {categories.map((category) => (
+            <Link to="/" key={category.id}>
+              <p>{category.name}</p>
+            </Link>
+          ))}
         </nav>
       </header>
 
       <aside
-        className={`fixed top-0 left-0 h-full w-110 bg-[url(${imageUrls.backroundBlue})] bg-cover bg-center shadow-2xl z-50 transform transition-transform duration-300 ease-in-out flex flex-col lg:hidden ${
+        className={`fixed top-0 left-0 h-full w-110 bg-[url(${imageUrls.backgroundBlue})] bg-cover bg-center shadow-2xl z-50 transform transition-transform duration-300 ease-in-out flex flex-col lg:hidden ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >

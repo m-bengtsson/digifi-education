@@ -3,7 +3,7 @@ import imageUrls from "../data/imageUrls";
 export default function Footer() {
   return (
     <footer
-      className={`flex px-36 py-12 bg-[url(${imageUrls.backroundBlue})] bg-cover bg-center items-center min-h-50 text-white`}
+      className={`flex px-36 py-12 bg-[url(${imageUrls.backgroundBlue})] bg-cover bg-center items-center min-h-50 text-white`}
     >
       <div className="flex *:w-full *:px-4 *:justify-between container">
         <div>
