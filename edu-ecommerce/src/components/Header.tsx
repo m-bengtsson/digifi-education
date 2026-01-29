@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import imageUrls from "../data/imageUrls";
-import { Menu, X } from "lucide-react";
+import { Menu, Search, ShoppingCart, StarIcon, User, X } from "lucide-react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,50 +9,99 @@ export default function Header() {
   return (
     <>
       <header
-        className={`p-4 flex bg-[url(${imageUrls.backroundBlue})] bg-cover bg-center items-center text-white shadow-lg`}
+        className={`flex flex-col bg-[url(${imageUrls.backroundBlue})] bg-cover bg-center  lg:justify-between  items-center text-white shadow-lg *:w-full`}
       >
-        <button
-          onClick={() => setIsOpen(true)}
-          className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
-          aria-label="Open menu"
-        >
-          <Menu size={24} />
-        </button>
-        <h1 className="ml-4 text-xl font-semibold">
+        {/* Black bar */}
+        <div className="bg-neutral-800 h-7.5 w-full flex gap-6 uppercase items-center justify-center font-extrabold">
+          <div className="flex items-center gap-6 text-md">
+            <p>Kundtjänst</p>
+            <p>Hitta återförsäljare</p>
+            <p className="text-xs">Privatperson</p>
+          </div>
+          <div className="flex items-center gap-2">
+            {/* Rating */}
+            <p className="text-md">4.8</p>
+            <div className="flex gap-1 text-[#ff6600]">
+              {[...Array(5)].map((_, idx) => (
+                <StarIcon key={idx} size={16} fill="#ff6600" />
+              ))}
+            </div>
+            <p className="text-xs">2,473 recensioner</p>
+          </div>
+        </div>
+        <div className="flex justify-between mt-5 max-w-284">
+          {/* Hamburger menu */}
+          <button
+            onClick={() => setIsOpen(true)}
+            className="px-4 hover:cursor-pointer transition-colors text-neutral-800 lg:hidden"
+            aria-label="Open menu"
+          >
+            <Menu size={32} />
+          </button>
+          {/* Logo */}
           <Link to="/">
             <img src={imageUrls.logo} alt="Logo" className="h-10" />
           </Link>
-        </h1>
+          {/* Search bar */}
+          <div className="items-center justify-between bg-[#5cbee6] py-3 px-5 hidden rounded-xs lg:flex lg:max-w-100 w-full shadow-[0px_0px_20px_rgba(0,0,0,0.15)]">
+            <input
+              type="text"
+              placeholder="Sök bland våra produkter"
+              className="w-full text-white placeholder:text-white placeholder:font-extrabold"
+            />
+            <Search width={24} />
+          </div>
+          <div className="flex items-center px-4 gap-4 *:hover:cursor-pointer *:transition-colors *:text-neutral-800 ">
+            <button className="hidden lg:block " aria-label="Open user menu">
+              <User size={32} />
+            </button>
+            <button aria-label="Open cart">
+              <ShoppingCart size={32} />
+            </button>
+          </div>
+        </div>
+        {/* Categories */}
+        <nav className="h-8 py-2 hidden lg:flex items-center justify-center font-extrabold text-lg uppercase gap-4">
+          <p>Exteriör</p>
+          <p>Interiör</p>
+        </nav>
       </header>
 
       <aside
-        className={`fixed top-0 left-0 h-full w-80 bg-gray-900 text-white shadow-2xl z-50 transform transition-transform duration-300 ease-in-out flex flex-col ${
+        className={`fixed top-0 left-0 h-full w-110 bg-[url(${imageUrls.backroundBlue})] bg-cover bg-center shadow-2xl z-50 transform transition-transform duration-300 ease-in-out flex flex-col lg:hidden ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex items-center justify-between p-4 border-b border-gray-700">
-          <h2 className="text-xl font-bold">Sökfält</h2>
+        <div className="flex items-center justify-between p-2 text-neutral-800">
+          <div className="items-center justify-between bg-white  p-3 flex max-w-100 w-full">
+            <input
+              type="text"
+              placeholder="Sök bland våra produkter"
+              className="w-full placeholder:text-neutral-800 placeholder:font-bold"
+            />
+            <Search width={24} />
+          </div>
           <button
             onClick={() => setIsOpen(false)}
-            className="p-2 hover:bg-gray-800 rounded-lg transition-colors"
+            className="p-2"
             aria-label="Close menu"
           >
             <X size={24} />
           </button>
         </div>
 
-        <nav className="flex-1 p-4 overflow-y-auto">
+        <nav className="flex-1 overflow-y-auto bg-white">
           <Link
             to="/"
             onClick={() => setIsOpen(false)}
-            className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-800 transition-colors mb-2"
+            className="flex items-center p-4 hover:cursor-pointer hover:bg-gray-800 transition-colors mb-2 border-b border-neutral-500"
             activeProps={{
-              className:
-                "flex items-center gap-3 p-3 rounded-lg bg-cyan-600 hover:bg-cyan-700 transition-colors mb-2",
+              className: "bg-cyan-200  hover:bg-neutral-200 transition-colors",
             }}
           >
-            {" "}
-            <span className="font-medium">Kategori</span>
+            <p className="text-neutral-800 font-bold uppercase text-lg">
+              Kategori
+            </p>
           </Link>
         </nav>
       </aside>
